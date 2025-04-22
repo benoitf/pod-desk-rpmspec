@@ -6,6 +6,7 @@ Summary:        GUI for managing Podman containers
 License:        Apache-2.0
 URL:            https://github.com/podman-desktop/podman-desktop
 ExclusiveArch:  x86_64 aarch64
+Provides:       bundled(electron) = 35.1.5
 
 # Define two binaries of Podman Desktop for the 2 supported arches
 Source0:         https://github.com/podman-desktop/podman-desktop/releases/download/v%{version}/podman-desktop-%{version}.tar.gz
